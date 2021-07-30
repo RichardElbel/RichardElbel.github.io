@@ -1,0 +1,66 @@
+* {padding:0;margin:0;box-sizing:border-box;}
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: 5px auto;
+    background-color: #eeeeee;
+}
+
+#resumeContent{
+    background-color: #cccccccc;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+header{
+    background-color: #134371;
+    text-align: center;
+}
+nav{
+    background-color: #eeeeee;
+    text-align: center;
+}
+main{
+    background-color: #447BB6;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    
+}
+
+ul{
+    list-style-position:inside;
+}
+
+h3{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+#navigation {
+    background-color: #333;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    main {
+      background-color: #333;
+      color:#eeeeee;
+    }
+}
